@@ -15,9 +15,11 @@
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api?username=MinhSangGDVN&show_icons=true&theme=tokyonight&hide_border=true" alt="MinhSang's GitHub Stats" />
   </a>
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false">
+  </a>
   <!--
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhSangGDVN&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
   </a>
 -->
-</div>
