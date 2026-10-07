@@ -2,8 +2,20 @@
 
 ## 👋 Hi, I'm @MinhSangGDVN
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MinhSangGDVN&style=flat-square&color=blueviolet" alt="Profile Views" />
+
+  <img src="https://komarev.com/ghpvc/?username=MinhSangGDVN&label=Profile%20Views&style=flat-square&color=blueviolet" alt="Profile Views" />
+
+  <a href="https://github.com/MinhSangGDVN?tab=followers">
+    <img src="https://img.shields.io/github/followers/MinhSangGDVN?label=Followers&style=flat-square&color=blueviolet&logo=github" alt="Followers" />
+  </a>
+
+  <img src="https://img.shields.io/github/stars/MinhSangGDVN?label=Total%20Stars&style=flat-square&color=blueviolet&logo=readdotcv" alt="Stars" />
+
+  <img src="https://img.shields.io/badge/Location-Vietnam-blueviolet?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
+
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-blueviolet?style=flat-square&logo=git" alt="Status" />
 </p>
+
 
 - 🔭 I’m currently working on [MingSengBot](https://discord.gg/mingsengbot)
 - 🍪 I’m the founder of Mscrew Studio & MingSengBot — A leading entertainment and economic Discord bot in Vietnam
@@ -31,3 +43,18 @@
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhSangGDVN&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
   </a>
 -->
+
+<p align="center">
+  <a href="mailto:minhsanggd@mscrew.io.vn" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://discord.gg/mingsengbot" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://www.tiktok.com/@minhsanggd" target="_blank">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
+  </a>
+  <a href="https://facebook.com/minhsanggd" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+</p>
