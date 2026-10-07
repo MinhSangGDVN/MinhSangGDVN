@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=180&section=header&text=Hi,%20I'm%20Minh%20Sang!&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%"/>
+
 ## 👋 Hi, I'm @MinhSangGDVN
 - 🔭 I’m currently working on [MingSengBot](https://discord.gg/mingsengbot)
 - 🍪 I’m the founder of Mscrew Studio & MingSengBot — A leading entertainment and economic Discord bot in Vietnam
