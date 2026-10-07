@@ -5,11 +5,18 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MinhSangGDVN&label=Profile%20Views&style=flat-square&color=blueviolet" alt="Profile Views" />
 
+
+
+
   <a href="https://github.com/MinhSangGDVN?tab=followers">
     <img src="https://img.shields.io/github/followers/MinhSangGDVN?label=Followers&style=flat-square&color=blueviolet&logo=github" alt="Followers" />
   </a>
 
-  <img src="https://img.shields.io/github/stars/MinhSangGDVN/MinhSangGDVN?label=Repo%20Stars&style=flat-square&color=blueviolet&logo=readdotcv" alt="Stars" />
+<a href="https://discord.gg/mingsengbot" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-3000%20Members-blueviolet?style=flat-square&logo=discord&logoColor=white" alt="Discord Members" />
+</a>
+
+
 
   <img src="https://img.shields.io/badge/Location-Vietnam-blueviolet?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
 
