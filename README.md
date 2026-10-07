@@ -1,6 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=180&section=header&text=Hi,%20I'm%20Minh%20Sang!&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%"/>
 
 ## 👋 Hi, I'm @MinhSangGDVN
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MinhSangGDVN&style=flat-square&color=blueviolet" alt="Profile Views" />
+</p>
+
 - 🔭 I’m currently working on [MingSengBot](https://discord.gg/mingsengbot)
 - 🍪 I’m the founder of Mscrew Studio & MingSengBot — A leading entertainment and economic Discord bot in Vietnam
 - 🌱 I’m currently learning [Information Technology](https://en.wikipedia.org/wiki/Information_technology) & [Computer Science](https://en.wikipedia.org/wiki/Computer_science)
@@ -8,7 +12,8 @@
 - 💬 Ask me about ...
 - 📫 How to reach me: go to the bed
 
-### My contributions on Github:
+
+### My contributions & activities:
 <div align="center">
 
   <a href="https://git.io/streak-stats">
@@ -20,6 +25,7 @@
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&redirect=true">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false">
   </a>
+
   <!--
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhSangGDVN&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
