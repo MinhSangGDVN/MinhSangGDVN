@@ -64,8 +64,9 @@
   </a>
 
 </div>
-<p align="center">
-  <b>☕ Support my projects / Donate via VietQR:</b><br/><br/>
+  <h3>Support my projects via donations</h3>
+<p>Bank: </p>
+<p>Account number: </p>
+<p></p>
   <img src="https://minhsanggd.mscrew.io.vn/vietqr.png" width="260px" alt="VietQR Donate" />
-</p>
 
