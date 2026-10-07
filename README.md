@@ -34,20 +34,16 @@
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api?username=MinhSangGDVN&show_icons=true&theme=tokyonight&hide_border=true" alt="MinhSang's GitHub Stats" />
   </a>
+
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhSangGDVN&hide=smali&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  </a>
 <p align="center">
   <img src="https://ghchart.rshah.org/4169e1/MinhSangGDVN" alt="Minh Sang GitHub Contribution Chart" />
 </p>
-
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&redirect=true">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false">
   </a>
-
-  <!--
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhSangGDVN&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </a>
--->
-
 <p align="center">
   <a href="mailto:minhsanggd@mscrew.io.vn" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
