@@ -13,7 +13,7 @@
   </a>
 
 <a href="https://discord.gg/mingsengbot" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-3000%20Members-blueviolet?style=flat-square&logo=discord&logoColor=white" alt="Discord Members" />
+  <img src="https://img.shields.io/badge/Discord-3000+%20Members-blueviolet?style=flat-square&logo=discord&logoColor=white" alt="Discord Members" />
 </a>
 
 
@@ -50,6 +50,19 @@
   <a href="https://spotify-github-profile.kittinanx.com/api/run?uid=316wrx4mtolhhjlfshrwdciaxfda&redirect=true" target="_blank">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false" alt="Spotify Status" />
   </a>
+
+
+</div>
+
+
+### Support my projects via donations
+- **Bank:** `BVBank` (Ngân hàng Bản Việt)
+- **Account number:** `99ZP26276M78391586`
+- **Recipient:** `ZALOPAY_LE MINH SANG`
+
+![VietQR Donate](https://minhsanggd.mscrew.io.vn/vietqr.png)
+
+<div align="center">
   <a href="mailto:minhsanggd@mscrew.io.vn" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
@@ -61,12 +74,4 @@
   </a>
   <a href="https://facebook.com/minhsanggd" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-
-</div>
-  <h3>Support my projects via donations</h3>
-<p>Bank: BVBank</p>
-<p>Account number: 99ZP26276M78391586</p>
-<p>Recipient: ZALOPAY_LE MINH SANG</p>
-  <img src="https://minhsanggd.mscrew.io.vn/vietqr.png" width="260px" alt="VietQR Donate" />
-
+  </a></div>
