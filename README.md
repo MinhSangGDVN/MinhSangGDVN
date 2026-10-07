@@ -65,8 +65,8 @@
 
 </div>
   <h3>Support my projects via donations</h3>
-<p>Bank: </p>
-<p>Account number: </p>
-<p></p>
+<p>Bank: BVBank</p>
+<p>Account number: 99ZP26276M78391586</p>
+<p>Recipient: ZALOPAY_LE MINH SANG</p>
   <img src="https://minhsanggd.mscrew.io.vn/vietqr.png" width="260px" alt="VietQR Donate" />
 
