@@ -27,9 +27,9 @@
 - 🔭 I’m currently working on [MingSengBot](https://discord.gg/mingsengbot) 📍
 - 🍪 I’m the founder of Mscrew Studio & MingSengBot — A leading entertainment and economic Discord bot in Vietnam 🔥
 - 🌱 I’m currently learning [Information Technology](https://en.wikipedia.org/wiki/Information_technology) and my projects are mostly product development on Discord ❤️
-- 😋 My portfolio: [https://minhsanggd.mscrew.io.vn](https://minhsanggd.mscrew.io.vn) 🙃
-- 💬 Ask me about ... 🐧
-- 📫 How to reach me: go to the bed 🏳️‍🌈
+- 😋 My portfolio: [https://minhsanggd.mscrew.io.vn](https://minhsanggd.mscrew.io.vn) 🐧
+- 💬 Ask me about ... 😾
+- 📫 How to reach me: go to the bed 💤
 
 ### My contributions & activities:
 
