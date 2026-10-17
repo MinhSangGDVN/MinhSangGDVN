@@ -52,6 +52,7 @@
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=316wrx4mtolhhjlfshrwdciaxfda&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false" alt="Spotify Status" />
   </a>
 
+[![Discord Presence](https://lanyard.cnrad.dev/api/1201523782486073446?showDisplayName=true)](https://discord.com/users/1201523782486073446)
 
 </div>
 
