@@ -13,7 +13,7 @@
   </a>
 
 <a href="https://discord.gg/mingsengbot" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-3000+%20Members-blueviolet?style=flat-square&logo=discord&logoColor=white" alt="Discord Members" />
+  <img src="https://img.shields.io/badge/Discord-3300+%20Members-blueviolet?style=flat-square&logo=discord&logoColor=white" alt="Discord Members" />
 </a>
 
 
