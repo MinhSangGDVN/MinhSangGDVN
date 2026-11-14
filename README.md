@@ -62,7 +62,7 @@
 - **Account number:** `99ZP26276M78391586`
 - **Recipient:** `ZALOPAY_LE MINH SANG`
 
-![VietQR Donate](https://minhsanggd.mscrew.io.vn/vietqr.png)
+![VietQR Donate](https://raw.githubusercontent.com/MinhSangGDVN/msb-web/refs/heads/main/assets/vietqr-1.png)
 
 <div align="center">
   <a href="mailto:minhsanggd@mscrew.io.vn" target="_blank">
