@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate — MinhSangGD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-page: #fafafa;
+      --bg-surface: #ffffff;
+      --bg-subtle: #f4f4f5;
+      --text-primary: #09090b;
+      --text-secondary: #52525b;
+      --text-muted: #71717a;
+      --border-hairline: #e4e4e7;
+      --accent: #2563eb;
+      --success: #059669;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-page: #09090b;
+        --bg-surface: #111113;
+        --bg-subtle: #18181b;
+        --text-primary: #fafafa;
+        --text-secondary: #a1a1aa;
+        --text-muted: #71717a;
+        --border-hairline: #27272a;
+        --accent: #3b82f6;
+        --success: #10b981;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 440px;
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: 8px;
+      box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+
+    .lang-switch {
+      display: inline-flex;
+      border: 1px solid var(--border-hairline);
+      border-radius: 6px;
+      background-color: var(--bg-subtle);
+      padding: 2px;
+    }
+
+    .lang-btn {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: transparent;
+      border: none;
+      border-radius: 4px;
+      padding: 3px 8px;
+      cursor: pointer;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .lang-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .lang-btn.active {
+      background-color: var(--bg-surface);
+      color: var(--text-primary);
+      box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.06);
+    }
+
+    .lang-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+
+    .qr-section {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid var(--border-hairline);
+      background-color: var(--bg-subtle);
+    }
+
+    .qr-frame {
+      background-color: #ffffff;
+      padding: 12px;
+      border: 1px solid var(--border-hairline);
+      border-radius: 6px;
+      width: 224px;
+      height: 224px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qr-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .qr-caption {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 12px;
+      text-align: center;
+    }
+
+    .details-list {
+      list-style: none;
+    }
+
+    .detail-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 24px;
+      border-bottom: 1px solid var(--border-hairline);
+      transition: background-color 0.15s ease;
+    }
+
+    .detail-row:last-child {
+      border-bottom: none;
+    }
+
+    .detail-row:hover {
+      background-color: var(--bg-subtle);
+    }
+
+    .detail-info {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .detail-label {
+      display: block;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 2px;
+    }
+
+    .detail-value {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-primary);
+      word-break: break-all;
+    }
+
+    .mono {
+      font-family: var(--font-mono);
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.01em;
+    }
+
+    .copy-btn {
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-primary);
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .copy-btn:hover {
+      background-color: var(--bg-subtle);
+      border-color: var(--text-muted);
+    }
+
+    .copy-btn:active {
+      transform: translateY(1px);
+    }
+
+    .copy-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .copy-btn.copied {
+      color: var(--success);
+      border-color: var(--success);
+    }
+
+    .copy-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="header-top">
+        <span class="badge" data-i18n="badge">Support &amp; Donate</span>
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <button type="button" class="lang-btn" data-lang="vi">VI</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+      <h1 data-i18n="title">Ủng hộ MinhSangGD</h1>
+      <p class="subtitle" data-i18n="subtitle">Quét mã VietQR hoặc sao chép thông tin chuyển khoản bên dưới.</p>
+    </header>
+
+    <section class="qr-section" aria-label="QR Code">
+      <div class="qr-frame">
+        <img
+          src="https://raw.githubusercontent.com/MinhSangGDVN/msb-web/refs/heads/main/assets/vietqr-1.png"
+          alt="VietQR MinhSangGD"
+          loading="eager"
+        />
+      </div>
+      <p class="qr-caption" data-i18n="qrCaption">Hỗ trợ quét bằng ứng dụng Ngân hàng hoặc ví điện tử</p>
+    </section>
+
+    <ul class="details-list">
+      <li class="detail-row">
+        <div class="detail-info">
+          <span class="detail-label" data-i18n="bankLabel">Ngân hàng</span>
+          <span class="detail-value" data-i18n="bankValue">BVBank (Ngân hàng Bản Việt)</span>
+        </div>
+      </li>
+
+      <li class="detail-row">
+        <div class="detail-info">
+          <span class="detail-label" data-i18n="accLabel">Số tài khoản</span>
+          <span class="detail-value mono">99ZP26276M78391586</span>
+        </div>
+        <button type="button" class="copy-btn" data-copy="99ZP26276M78391586">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          <span class="btn-text" data-i18n="copy">Sao chép</span>
+        </button>
+      </li>
+
+      <li class="detail-row">
+        <div class="detail-info">
+          <span class="detail-label" data-i18n="recipientLabel">Người thụ hưởng</span>
+          <span class="detail-value mono">ZALOPAY_LE MINH SANG</span>
+        </div>
+        <button type="button" class="copy-btn" data-copy="ZALOPAY_LE MINH SANG">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          <span class="btn-text" data-i18n="copy">Sao chép</span>
+        </button>
+      </li>
+
+      <li class="detail-row">
+        <div class="detail-info">
+          <span class="detail-label" data-i18n="zalopayLabel">Ví ZaloPay</span>
+          <span class="detail-value mono">0354729762</span>
+        </div>
+        <button type="button" class="copy-btn" data-copy="0354729762">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          <span class="btn-text" data-i18n="copy">Sao chép</span>
+        </button>
+      </li>
+    </ul>
+  </main>
+
+  <script>
+    const translations = {
+      vi: {
+        pageTitle: 'Ủng hộ — MinhSangGD',
+        badge: 'Support & Donate',
+        title: 'Ủng hộ MinhSangGD',
+        subtitle: 'Quét mã VietQR hoặc sao chép thông tin chuyển khoản bên dưới.',
+        qrCaption: 'Hỗ trợ quét bằng ứng dụng Ngân hàng hoặc ví điện tử',
+        bankLabel: 'Ngân hàng',
+        bankValue: 'BVBank (Ngân hàng Bản Việt)',
+        accLabel: 'Số tài khoản',
+        recipientLabel: 'Người thụ hưởng',
+        zalopayLabel: 'Ví ZaloPay',
+        copy: 'Sao chép',
+        copied: 'Đã chép'
+      },
+      en: {
+        pageTitle: 'Donate — MinhSangGD',
+        badge: 'Support & Donate',
+        title: 'Support MinhSangGD',
+        subtitle: 'Scan the VietQR code or copy the transfer details below.',
+        qrCaption: 'Scan with any Vietnamese banking app or e-wallet',
+        bankLabel: 'Bank',
+        bankValue: 'BVBank (Viet Capital Bank)',
+        accLabel: 'Account Number',
+        recipientLabel: 'Recipient',
+        zalopayLabel: 'ZaloPay Wallet',
+        copy: 'Copy',
+        copied: 'Copied'
+      }
+    };
+
+    const copyIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+    const checkIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+
+    let currentLang = 'vi';
+
+    function detectInitialLanguage() {
+      try {
+        const saved = localStorage.getItem('preferred-lang');
+        if (saved === 'vi' || saved === 'en') return saved;
+      } catch {}
+
+      const browserLangs = navigator.languages && navigator.languages.length
+        ? navigator.languages
+        : [navigator.language || navigator.userLanguage || 'en'];
+
+      for (const lang of browserLangs) {
+        if (lang.toLowerCase().startsWith('vi')) return 'vi';
+      }
+      return 'en';
+    }
+
+    function setLanguage(lang, persist = false) {
+      currentLang = translations[lang] ? lang : 'en';
+      const dict = translations[currentLang];
+
+      document.documentElement.lang = currentLang;
+      document.title = dict.pageTitle;
+
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) {
+          el.textContent = dict[key];
+        }
+      });
+
+      document.querySelectorAll('.lang-btn').forEach((btn) => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === currentLang);
+      });
+
+      document.querySelectorAll('.copy-btn').forEach((btn) => {
+        const isCopied = btn.classList.contains('copied');
+        const label = btn.querySelector('.btn-text');
+        if (label) {
+          label.textContent = isCopied ? dict.copied : dict.copy;
+        }
+      });
+
+      if (persist) {
+        try {
+          localStorage.setItem('preferred-lang', currentLang);
+        } catch {}
+      }
+    }
+
+    document.querySelectorAll('.lang-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        setLanguage(btn.getAttribute('data-lang'), true);
+      });
+    });
+
+    document.querySelectorAll('.copy-btn').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const text = btn.getAttribute('data-copy');
+        try {
+          await navigator.clipboard.writeText(text);
+        } catch {
+          const input = document.createElement('input');
+          input.value = text;
+          document.body.appendChild(input);
+          input.select();
+          document.execCommand('copy');
+          document.body.removeChild(input);
+        }
+
+        btn.classList.add('copied');
+        btn.innerHTML = `${checkIcon}<span class="btn-text">${translations[currentLang].copied}</span>`;
+
+        clearTimeout(btn._timer);
+        btn._timer = setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.innerHTML = `${copyIcon}<span class="btn-text">${translations[currentLang].copy}</span>`;
+        }, 1800);
+      });
+    });
+
+    setLanguage(detectInitialLanguage(), false);
+  </script>
+</body>
+</html>
